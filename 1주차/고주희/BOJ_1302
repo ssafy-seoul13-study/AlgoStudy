@@ -8,6 +8,14 @@ import java.util.Map;
 
 //베스트셀러
 //시간:132ms 메모리:14172KB 풀이 시간:15분
+
+/*
+if(book.containsKey(b)) book.replace(b, book.get(b), book.get(b)+1);
+이 부분을
+if(book.containsKey(b)) book.put(b, book.get(b)+1);
+로 바꾸는 경우
+시간:120ms 메모리:14116KB 풀이 시간:기존+10분
+*/
 public class BOJ_1302 {
 
 	public static void main(String[] args) throws NumberFormatException, IOException {
