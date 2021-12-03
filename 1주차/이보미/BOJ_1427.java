@@ -4,8 +4,8 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.Collections;
 
-// 접미사 배열
-public class Main_11656 {
+// 소트인사이드
+public class BOJ_1427 {
 
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
