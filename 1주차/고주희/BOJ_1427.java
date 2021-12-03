@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.io.BufferedReader;
 import java.io.IOException;
 
-//4분
+//시간:128ms 메모리:14300KB 풀이 시간:4분
 public class BOJ_1427 {
 
 	public static void main(String[] args) throws IOException {
