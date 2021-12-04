@@ -3,6 +3,9 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
+// 시간: 136ms
+// 메모리: 14368KB
+// 풀이시간: 1시간 35분
 public class BOJ_13335 {
 
 	public static void main(String[] args) throws IOException {
