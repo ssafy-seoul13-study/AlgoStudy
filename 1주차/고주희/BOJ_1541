@@ -11,14 +11,14 @@ public class BOJ_1541 {
 
 	public static void main(String[] args) throws IOException {
 
-    // 입력받음
+   		 // 입력받음
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		String string = br.readLine();
 		// 숫자과 기호를 각각 다른 배열에 담기(plusminus 배열은 ["","-","+"] 이런식으로 담김)
-    String[] s = string.split("-|\\+");
+    		String[] s = string.split("-|\\+");
 		String[] plusminus = string.split("[0-9]+");
 		// -가 처음 나올때까지 계속 더하다가 - 나온 이후부터는 무조건 빼기
-    int len = plusminus.length;
+    		int len = plusminus.length;
 		int sum = Integer.parseInt(s[0]);
 		boolean flag = false;
 		for (int i = 1, j=1; i < len; i++, j++) {
@@ -29,7 +29,7 @@ public class BOJ_1541 {
 				sum-=Integer.parseInt(s[j]);
 			}
 		}
-    //출력
+   		 //출력
 		System.out.println(sum);
 	}
 
