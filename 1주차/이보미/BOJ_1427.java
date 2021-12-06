@@ -1,28 +1,28 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 
 // 소트인사이드
+// 메모리 : 14252KB, 시간 : 128ms
 public class BOJ_1427 {
 
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-
-		String str = br.readLine();
 		
-		ArrayList<String> list = new ArrayList<>();
+		String str = br.readLine();
+		Integer [] arr = new Integer[str.length()];
 		
 		for (int i = 0; i < str.length(); i++) {
-			list.add(str.substring(i, str.length()));
+			arr[i] = Integer.parseInt(str.charAt(i)+"");
 		}
 		
-		Collections.sort(list);
-		
+		Arrays.sort(arr, Collections.reverseOrder());
+
 		StringBuilder sb = new StringBuilder();
-		for (String s : list) {
-			sb.append(s).append("").append("\n");
+		for (int i = 0; i < arr.length; i++) {
+			sb.append(arr[i]);
 		}
 		
 		System.out.println(sb.toString());
