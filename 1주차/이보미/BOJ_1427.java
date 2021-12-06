@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.Collections;
 
 // 소트인사이드
-// 메모리 : 14252KB, 시간 : 128ms
+// 메모리 : 14252KB, 시간 : 128ms, 풀이시간 : 5분
 public class BOJ_1427 {
 
 	public static void main(String[] args) throws IOException {
