@@ -1,6 +1,6 @@
 // 알고리즘 푸는 시간 20분
 // 메모리 11668KB
-// 시간 76ms
+// 시간 76ms.
 //코드길이 1021B
 
 import java.io.BufferedReader;
