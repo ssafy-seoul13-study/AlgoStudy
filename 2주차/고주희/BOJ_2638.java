@@ -44,18 +44,18 @@ public class BOJ_2638 {
 	private static void melting(int[][] cheese) {
 
 		// 필요한 변수들 정의
-        int[] dr = {-1,0,1,0};
-	    int[] dc = {0,-1,0,1};
-        int R = cheese.length;
-        int C = cheese[0].length;
-		
+        	int[] dr = {-1,0,1,0};
+	    	int[] dc = {0,-1,0,1};
+		int R = cheese.length;
+		int C = cheese[0].length;
+
 		// 몇 면이 닿아있는지 셀 임시 배열
 		int[][] temp = new int[R][C];
 		// 치즈가 없는 0인 부분을 bfs
 		Queue<int[]> que = new LinkedList<int[]>();
 		que.offer(new int[] {0,0});
 		// 치즈가 없고 방문한 부분은 temp에 -1로 저장
-        temp[0][0] = -1;
+		temp[0][0] = -1;
 		while(!que.isEmpty()) {
 			int[] cur = que.poll();
 			int r = cur[0];
@@ -68,8 +68,8 @@ public class BOJ_2638 {
 				// 방문한 적 없고 치즈가 없는 부분일 경우
 				if(cheese[nr][nc]==0) {
 					// temp에 -1 저장해서 방문 표시하고 que에 넣기
-                    temp[nr][nc] = -1;
-                    que.offer(new int[] {nr, nc});
+		    			temp[nr][nc] = -1;
+		   			 que.offer(new int[] {nr, nc});
 				}
 				// 치즈가 있는 곳이면 temp에 닿아있는 면+1
 				if(cheese[nr][nc]==1) {
@@ -82,7 +82,7 @@ public class BOJ_2638 {
 				// 치즈가 바깥과 닿은 부분이 2 이상인 경우 녹음 => 치즈 크기-1
 				if(temp[i][j]>=2) {
 					cheese[i][j] = 0;
-                    N--;
+		    			N--;
 				}
 			}
 		}
