@@ -5,9 +5,9 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
-// 시간 : 260ms
-// 메모리 : 44880KB
-// 풀이 시간 : 26분
+// 시간 : 248ms
+// 메모리 : 44644KB
+// 풀이 시간 : 30분
 public class BOJ_2638 {
 
 	static int N;
@@ -72,7 +72,7 @@ public class BOJ_2638 {
 		   			 que.offer(new int[] {nr, nc});
 				}
 				// 치즈가 있는 곳이면 temp에 닿아있는 면+1
-				if(cheese[nr][nc]==1) {
+				else {
 					temp[nr][nc]++;
 				}
 			}
