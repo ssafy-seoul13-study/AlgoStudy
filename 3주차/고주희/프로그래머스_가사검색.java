@@ -31,7 +31,7 @@ public class Programmers_kakao_가사검색2 {
         	String qsub = null;
         	if(arr[0] != 0) {
         		qsub = q.substring(0, arr[0]);
-        	}else {
+        	}else { 
         		qsub = q.substring(arr[1], chlen);
         	}
         	for (String w : words) {
