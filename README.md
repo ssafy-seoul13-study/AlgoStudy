@@ -25,5 +25,4 @@
 :-: | :-: | :-:
 <img src="https://static.solved.ac/tier_small/12.svg" height="18px"/> | [2573](http://noj.am/2573) | 빙산
 <img src="https://static.solved.ac/tier_small/14.svg" height="18px"/> | [1525](http://noj.am/1525) | 퍼즐
-. | [가사검색](https://programmers.co.kr/learn/courses/30/lessons/60060
-) | 가사검색
+. | [가사검색](https://programmers.co.kr/learn/courses/30/lessons/60060) | 가사검색
