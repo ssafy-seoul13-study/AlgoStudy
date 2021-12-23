@@ -90,10 +90,7 @@ public int[] solution(String[] words, String[] queries) {
                 node = node.childNodes.get(query.charAt(i));
             }
             return node.count;
-        }
-        
-        
-        
+        }   
     }
     
     class TrieNode{
@@ -105,6 +102,3 @@ public int[] solution(String[] words, String[] queries) {
             childNodes = new HashMap<Character, TrieNode>();
         }
     }
-
-
-출처: https://tosuccess.tistory.com/154 [EI_HJ]
