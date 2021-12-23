@@ -30,6 +30,6 @@ level 4 | [가사검색](https://programmers.co.kr/learn/courses/30/lessons/6006
 레벨 | 번호 | 제목
 :-: | :-: | :-:
 <img src="https://static.solved.ac/tier_small/12.svg" height="18px"/> | [9935](http://noj.am/9935) | 문자열 폭발
-<img src="https://static.solved.ac/tier_small/13.svg" height="18px"/> | [2196](http://noj.am/2196) | 문자열 복사
+<img src="https://static.solved.ac/tier_small/13.svg" height="18px"/> | [2195](http://noj.am/2195) | 문자열 복사
 <img src="https://static.solved.ac/tier_small/12.svg" height="18px"/> | [1976](http://noj.am/1976) | 여행 가자
 
