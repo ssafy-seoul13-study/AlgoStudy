@@ -18,7 +18,6 @@
 <img src="https://static.solved.ac/tier_small/12.svg" height="18px"/> | [2638](http://noj.am/2638) | 치즈
 <img src="https://static.solved.ac/tier_small/10.svg" height="18px"/> | [16918](http://noj.am/16918) | 봄버맨
 <img src="https://static.solved.ac/tier_small/10.svg" height="18px"/> | [11497](http://noj.am/11497) | 통나무 건너뛰기
-
 #
 ### 3주차 (21.12.22)
 레벨 | 번호 | 제목
@@ -26,3 +25,11 @@
 <img src="https://static.solved.ac/tier_small/12.svg" height="18px"/> | [2573](http://noj.am/2573) | 빙산
 <img src="https://static.solved.ac/tier_small/14.svg" height="18px"/> | [1525](http://noj.am/1525) | 퍼즐
 level 4 | [가사검색](https://programmers.co.kr/learn/courses/30/lessons/60060) | 가사검색
+# 
+### 4주차 (21.12.29)
+레벨 | 번호 | 제목
+:-: | :-: | :-:
+<img src="https://static.solved.ac/tier_small/12.svg" height="18px"/> | [9935](http://noj.am/9935) | 문자열 폭발
+<img src="https://static.solved.ac/tier_small/13.svg" height="18px"/> | [2196](http://noj.am/2196) | 문자열 복사
+<img src="https://static.solved.ac/tier_small/12.svg" height="18px"/> | [1976](http://noj.am/1976) | 여행 가자
+
